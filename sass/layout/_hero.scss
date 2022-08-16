@@ -17,9 +17,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+   @include font (44px, 900, 60px);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
@@ -31,9 +29,7 @@
   padding: 10px 32px;
   border: 0;
   background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font (16px, 700, 30px);
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 
@@ -45,3 +41,4 @@
     color: var(--primary-text-color-them-dark);
   }
 }
+

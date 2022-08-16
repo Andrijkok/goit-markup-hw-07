@@ -14,9 +14,7 @@
   border: 0;
   border-radius: 4px;
   background-color: var(--background-color-them-grey);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
+   @include font (16px, 500, 26px);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color-them-dark);

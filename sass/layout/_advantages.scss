@@ -22,9 +22,7 @@
 }
 
 .advantage-list__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     height: 120px;
     background-color: var(--background-color-them-grey);
     border-radius: 4px;
